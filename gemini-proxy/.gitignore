@@ -1,0 +1,7 @@
+# node
+node_modules
+# built static site
+/dist
+# dotenv
+*.env
+

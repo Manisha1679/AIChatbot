@@ -7,9 +7,7 @@ const fileCancelButton = document.querySelector("#file-cancel");
 const chatbotToggler = document.querySelector("#chatbot-toggler");
 const closeChatbot = document.querySelector("#close-chatbot");
 
-const API_KEY = "your_api_key";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
-
+const API_URL = "http://localhost:8080/api/gemini";   // talk to the proxy, no API_KEY needed
 const userData = {
   message: null,
   file: {
