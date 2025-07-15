@@ -23,13 +23,6 @@ This is a browser-based chatbot that interacts with users and fetches intelligen
 - **AI Model**: Gemini 2.0 Flash (via API)
 
 
-## 📂 Folder Structure
-AIChatbot/<br>
-├── index.html<br>
-├── style.css<br> 
-└── index.js<br> 
-
-
 ## 🔐 Gemini API Integration
 
 This chatbot connects to **Google's Gemini 2.0 Flash model** using a RESTful API call. You’ll need a valid API key from [Google AI Studio](https://makersuite.google.com/app) or Google Cloud Console.
